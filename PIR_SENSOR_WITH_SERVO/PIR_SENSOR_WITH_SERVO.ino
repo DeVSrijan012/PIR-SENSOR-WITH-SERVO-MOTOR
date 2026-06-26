@@ -1,3 +1,12 @@
+/*
+ * Project: Motion-Activated Servo Controller
+ * File: PIR_SENSOR_WITH_SERVO.ino
+ * Description: Uses an HC-SR501 PIR sensor to trigger an SG90 servo motor. 
+ *              When motion is detected, the servo rotates to activate a mechanism 
+ *              and automatically resets when the area is clear.
+ * Author: SRIJAN MISHRA
+ * Date: June 2026
+ */
 const int led = 8;
 const int pir = 2;
 int motion;
